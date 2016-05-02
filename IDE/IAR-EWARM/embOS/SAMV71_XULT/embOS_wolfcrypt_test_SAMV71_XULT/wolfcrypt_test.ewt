@@ -2315,84 +2315,66 @@
     </settings>
   </configuration>
   <group>
-    <name>wolfcrypt_sources</name>
+    <name>Application</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\aes.c</name>
+      <name>$PROJ_DIR$\Application\runWolfcryptTests.c</name>
+    </file>
+  </group>
+  <group>
+    <name>Device_Support</name>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\DeviceSupport\startup_sam.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\asn.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\DeviceSupport\system_sam.c</name>
+    </file>
+  </group>
+  <group>
+    <name>Setup</name>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\BSP.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\chacha.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\HardFaultHandler.S</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\chacha20_poly1305.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\JLINKMEM_Process.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\coding.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\OS_Error.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\des3.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\RTOSInit_SAMV71_CMSIS.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\dh.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\SEGGER_HardFaultHandler.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\dsa.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\SEGGER_RTT.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\ecc.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\SEGGER_RTT_printf.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\hash.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\SEGGER_SYSVIEW.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\hmac.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\SEGGER_SYSVIEW_Config_embOS.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\md4.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\SEGGER_SYSVIEW_embOS.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\md5.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\xmtx.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\memory.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\xmtx2.c</name>
     </file>
+  </group>
+  <group>
+    <name>wolfcrypt_test</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\misc.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\poly1305.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\pwdbased.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\rabbit.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\random.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\rsa.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\sha.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\sha256.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\sha512.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\tfm.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\wc_encrypt.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\wolfcrypt\src\wc_port.c</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\wolfcrypt\test\test.c</name>
     </file>
   </group>
 </project>
