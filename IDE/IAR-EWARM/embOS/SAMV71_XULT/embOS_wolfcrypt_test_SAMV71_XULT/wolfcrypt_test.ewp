@@ -185,6 +185,7 @@
           <state>__SAMV71Q21__</state>
           <state>WOLFSSL_USER_SETTINGS</state>
           <state>WOLFSSL_EMBOS</state>
+          <state>ECC_SHAMIR</state>
         </option>
         <option>
           <name>CCPreprocFile</name>

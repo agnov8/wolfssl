@@ -1,12 +1,12 @@
 #include "RTOS.h"
 #include "BSP.h"
-#include <wolfcrypt/test/test.h>
+#include <wolfcrypt/benchmark/benchmark.h>
 
-static OS_STACKPTR int WLFSTACK[30000];   /* Stack Size */
+static OS_STACKPTR int WLFSTACK[20000];   /* Stack Size */
 static OS_TASK WLFTASK;         /* Task-control-blocks */
 
 static void wolfTask(void) {
-  wolfcrypt_test(NULL);
+  benchmark_test(NULL);
   while (1) {
     BSP_ToggleLED(1);
     OS_Delay(200);

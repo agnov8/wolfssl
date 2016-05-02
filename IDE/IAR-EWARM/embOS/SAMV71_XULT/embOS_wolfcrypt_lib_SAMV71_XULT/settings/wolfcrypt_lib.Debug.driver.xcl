@@ -1,8 +1,8 @@
 "--endian=little" 
 
-"--cpu=Cortex-M3" 
+"--cpu=Cortex-M7" 
 
-"--fpu=None" 
+"--fpu=VFPv5_D16" 
 
 "--semihosting" 
 

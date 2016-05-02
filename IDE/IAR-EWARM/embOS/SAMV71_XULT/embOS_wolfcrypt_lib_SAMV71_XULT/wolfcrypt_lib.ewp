@@ -97,7 +97,7 @@
         </option>
         <option>
           <name>GEndianModeBE</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>OGBufferedTerminalOutput</name>
@@ -128,7 +128,7 @@
         <option>
           <name>GBECoreSlave</name>
           <version>24</version>
-          <state>38</state>
+          <state>41</state>
         </option>
         <option>
           <name>OGUseCmsis</name>
@@ -145,7 +145,7 @@
         <option>
           <name>CoreVariant</name>
           <version>24</version>
-          <state>38</state>
+          <state>41</state>
         </option>
         <option>
           <name>GFPUDeviceSlave</name>
@@ -154,12 +154,12 @@
         <option>
           <name>FPU2</name>
           <version>0</version>
-          <state>0</state>
+          <state>7</state>
         </option>
         <option>
           <name>NrRegs</name>
           <version>0</version>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>NEON</name>
@@ -168,7 +168,7 @@
         <option>
           <name>GFPUCoreSlave2</name>
           <version>24</version>
-          <state>38</state>
+          <state>41</state>
         </option>
       </data>
     </settings>
@@ -183,6 +183,7 @@
           <name>CCDefines</name>
           <state>WOLFSSL_USER_SETTINGS</state>
           <state>WOLFSSL_EMBOS</state>
+          <state>ECC_SHAMIR</state>
         </option>
         <option>
           <name>CCPreprocFile</name>
@@ -333,7 +334,7 @@
         </option>
         <option>
           <name>CCOptLevel</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>CCOptStrategy</name>
@@ -342,7 +343,7 @@
         </option>
         <option>
           <name>CCOptLevelSlave</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>CompilerMisraRules98</name>

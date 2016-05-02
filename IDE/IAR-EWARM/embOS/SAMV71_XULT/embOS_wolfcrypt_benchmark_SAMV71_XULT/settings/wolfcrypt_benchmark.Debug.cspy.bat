@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\common\bin\cspybat" -f "C:\Users\boz_windows\Desktop\wolfssl\IDE\IAR-EWARM\embOS\embOS_wolfcrypt_lib\settings\wolfcrypt_lib.Debug.general.xcl" --backend -f "C:\Users\boz_windows\Desktop\wolfssl\IDE\IAR-EWARM\embOS\embOS_wolfcrypt_lib\settings\wolfcrypt_lib.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\common\bin\cspybat" -f "C:\Users\boz_windows\Desktop\wolfssl\IDE\IAR-EWARM\embOS\SAMV71_XULT\embOS_wolfcrypt_benchmark_SAMV71_XULT\settings\wolfcrypt_benchmark.Debug.general.xcl" --backend -f "C:\Users\boz_windows\Desktop\wolfssl\IDE\IAR-EWARM\embOS\SAMV71_XULT\embOS_wolfcrypt_benchmark_SAMV71_XULT\settings\wolfcrypt_benchmark.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\common\bin\cspybat" -f "C:\Users\boz_windows\Desktop\wolfssl\IDE\IAR-EWARM\embOS\embOS_wolfcrypt_lib\settings\wolfcrypt_lib.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\boz_windows\Desktop\wolfssl\IDE\IAR-EWARM\embOS\embOS_wolfcrypt_lib\settings\wolfcrypt_lib.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\common\bin\cspybat" -f "C:\Users\boz_windows\Desktop\wolfssl\IDE\IAR-EWARM\embOS\SAMV71_XULT\embOS_wolfcrypt_benchmark_SAMV71_XULT\settings\wolfcrypt_benchmark.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\boz_windows\Desktop\wolfssl\IDE\IAR-EWARM\embOS\SAMV71_XULT\embOS_wolfcrypt_benchmark_SAMV71_XULT\settings\wolfcrypt_benchmark.Debug.driver.xcl" 
 
 @echo off 
 :end

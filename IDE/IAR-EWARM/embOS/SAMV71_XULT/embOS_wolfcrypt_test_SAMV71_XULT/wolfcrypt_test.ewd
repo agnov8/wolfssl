@@ -33,19 +33,19 @@
         </option>
         <option>
           <name>MacOverride</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>MacFile</name>
-          <state></state>
+          <state>C:\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\samv7-ek-flash.mac</state>
         </option>
         <option>
           <name>MemOverride</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>MemFile</name>
-          <state></state>
+          <state>C:\embos-trial\Start\BoardSupport\Atmel\SAMV71_XPlainedUltra\Setup\ATSAMV71Q21.svd</state>
         </option>
         <option>
           <name>RunToEnable</name>
@@ -57,11 +57,11 @@
         </option>
         <option>
           <name>CExtraOptionsCheck</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>CExtraOptions</name>
-          <state></state>
+          <state>--jlink_exec_command "device ATSAMV71Q21"</state>
         </option>
         <option>
           <name>CFpuProcessor</name>

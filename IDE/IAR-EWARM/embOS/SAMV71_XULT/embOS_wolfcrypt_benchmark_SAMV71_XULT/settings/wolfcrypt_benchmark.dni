@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=953131697
+Checksum=1197378494
 [CodeCoverage]
 Enabled=_ 0
 [Exceptions]
@@ -40,14 +40,14 @@ TracePortSize=0x00000000
 OverrideDefaultClocks=0
 CpuClock=72000000
 ClockAutoDetect=0
-ClockWanted=1000000
-JtagSpeed=1000000
-Prescaler=72
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
 TimeStampPrescIndex=0
 TimeStampPrescData=0
-PcSampCYCTAP=0
-PcSampPOSTCNT=0
-PcSampIndex=31
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
 DataLogMode=0
 ITMportsEnable=0
 ITMportsTermIO=0
