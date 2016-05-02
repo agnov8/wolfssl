@@ -2111,17 +2111,16 @@ void bench_ed25519KeySign(void)
 #elif defined(WOLFSSL_EMBOS)
     
     #include "RTOS.h"
-    
-    /* Returns time in micro-seconds */
+
     double current_time(int reset)
     {
         double time_now;
         double current_s = OS_GetTime() / 1000.0;
         double current_us = OS_GetTime_us() / 1000000.0;
         time_now = (double)( current_s + current_us);
-      
+
         (void) reset;
-        /* Will return in Millisecs */
+
         return time_now;
     }
 
