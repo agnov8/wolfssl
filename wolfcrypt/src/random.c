@@ -145,7 +145,8 @@ int wc_FreeRng(WC_RNG* rng)
 #else
     #if !defined(NO_DEV_RANDOM) && !defined(CUSTOM_RAND_GENERATE) && \
         !defined(WOLFSSL_GENSEED_FORTEST) && !defined(WOLFSSL_MDK_ARM) && \
-        !defined(WOLFSSL_IAR_ARM) && !defined(WOLFSSL_ROWLEY_ARM)
+        !defined(WOLFSSL_IAR_ARM) && !defined(WOLFSSL_ROWLEY_ARM) && \
+        !defined(WOLFSSL_EMBOS)
             #include <fcntl.h>
         #ifndef EBSNET
             #include <unistd.h>
