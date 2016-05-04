@@ -1,0 +1,1 @@
+/* stub header file for Libelium compatibility */
